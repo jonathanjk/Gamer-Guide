@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    
+}
+.cube{
+    padding:100px;
+    margin:100px;
+    background-image: url(./images//Action.jpg);
+}
+div{
+    padding:20px
+}
+.cube:hover{
+    animation-name: lights;
+    animation-duration:20000ms;
+}
+@keyframes lights{
+    100%{
+        background-color: #06022c;
+    }
+}
